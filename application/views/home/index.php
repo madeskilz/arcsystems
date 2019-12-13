@@ -2,7 +2,7 @@
 <?php $this->load->view("home/inc/slider") ?>
 
 <div class="page-content">
-    <section id="about">
+    <section>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 order-lg-12">
@@ -18,17 +18,17 @@
                     <p class="lead text-justify">
                         Our implementation strategy is to present our solution on the functionalities, features and operations of ARCSystems and how these can add value(s) to your Government IGR (Internally Generated Revenue).
                     </p>
-                    <a class="btn btn-theme btn-circle" href="<?=base_url("about")?>" data-text="See About"> <span>S</span><span>e</span><span>e</span><span> </span>
+                    <a class="btn btn-theme btn-circle" href="<?= base_url("about") ?>" data-text="See About"> <span>S</span><span>e</span><span>e</span><span> </span>
                         <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span>
                     </a>
-                    <a class="btn btn-dark btn-circle" href="<?=base_url("operation")?>" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
+                    <a class="btn btn-dark btn-circle" href="<?= base_url("operation") ?>" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
                         <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="service" class="pos-r o-hidden text-center">
+    <section class="pos-r o-hidden text-center">
         <div class="bg-animation">
             <img class="zoom-fade" src="<?= base_url("assets/images/pattern/03.png") ?>" alt="">
         </div>
@@ -94,7 +94,7 @@
                         <div class="title-effect title-effect-2">
                             <div class="ellipse"></div> <i class="la la-info"></i>
                         </div>
-                        <h2 class="title"></h2>
+                        <h2 class="title">Stages of Implementation</h2>
                     </div>
                     <div class="work-process style-2">
                         <div class="step-num-box">
@@ -103,45 +103,45 @@
                             <div class="step-num">01</div>
                         </div>
                         <div class="step-desc">
-                            <h4>Research Project</h4>
-                            <p class="mb-0">Nostrud exercitat ullamco lorem ipsum dolor sit amet, consece adipising elit, sed doeo eiusmod</p>
+                            <h4>Training of stakeholders</h4>
                         </div>
                     </div>
-                    <div class="work-process style-2 mt-5">
+                    <div class="work-process style-2">
                         <div class="step-num-box">
                             <div class="step-icon"><span><i class="la la-rocket"></i></span>
                             </div>
                             <div class="step-num">02</div>
                         </div>
                         <div class="step-desc">
-                            <h4>Targeting</h4>
-                            <p class="mb-0">Nostrud exercitat ullamco lorem ipsum dolor sit amet, consece adipising elit, sed doeo eiusmod</p>
+                            <h4>Configuration</h4>
                         </div>
                     </div>
-                    <div class="work-process style-2 mt-5">
+                    <div class="work-process style-2">
                         <div class="step-num-box">
                             <div class="step-icon"><span><i class="la la-check-square"></i></span>
                             </div>
                             <div class="step-num">03</div>
                         </div>
                         <div class="step-desc">
-                            <h4>Result</h4>
-                            <p class="mb-0">Nostrud exercitat ullamco lorem ipsum dolor sit amet, consece adipising elit, sed doeo eiusmod</p>
+                            <h4>Deployment</h4>
                         </div>
                     </div>
+                    <a class="btn btn-theme wow fadeInUp float-right" data-wow-duration="3s" data-wow-delay="0.5s" href="<?= base_url("implementation") ?>" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
+                        <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section id="blog" class="pos-r o-hidden">
+    <!-- <section class="pos-r o-hidden">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-8 col-md-12 ml-auto mr-auto">
                     <div class="section-title">
                         <div class="title-effect title-effect-2">
-                            <div class="ellipse"></div> <i class="la la-btc"></i>
+                            <div class="ellipse"></div> <i class="la la-envelope"></i>
                         </div>
                         <h2 class="title">Latest Updates</h2>
                         <p>Selected from our blogs</p>
@@ -199,6 +199,53 @@
                             </div>
                             <div class="post-title">
                                 <h4><a href="blog-single.html">All Powerful Design feature In Softino</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <style>
+        .clients-logo>img {
+            height:50px;
+            width:auto;
+        }
+    </style>
+    <section class="grey-bg z-index-0 custom-pt-10 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <div class="title-effect title-effect-2">
+                            <div class="ellipse"></div> <i class="la la-users"></i>
+                        </div>
+                        <h2 class="title">Our Partners</h2>
+                    </div>
+                    <div class="owl-carousel owl-theme" data-dots="false" data-items="4" data-md-items="3" data-sm-items="2" data-margin="30" data-autoplay="true">
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img class="img-center" src="<?= base_url("assets/images/client/partner1.jpg") ?>" alt="Interswitch">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img class="img-center" src="<?= base_url("assets/images/client/partner6.png") ?>" alt="Microsoft">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img class="img-center" src="<?= base_url("assets/images/client/partner10.png") ?>" alt="Dragnet">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img class="img-center" src="<?= base_url("assets/images/client/partner3.png") ?>" alt="Velsoft">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img class="img-center" src="<?= base_url("assets/images/client/partner9.jpg") ?>" alt="ETS">
                             </div>
                         </div>
                     </div>

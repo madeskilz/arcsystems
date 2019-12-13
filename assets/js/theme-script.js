@@ -83,7 +83,6 @@ function menu() {
 };
 
 
-
 /*------------------------------------
   HT Counter
 --------------------------------------*/
@@ -217,35 +216,6 @@ function fxheader() {
   });
 };
 
-/*------------------------------------
-  HT Scrolling Animation
---------------------------------------*/
-function scrolling() {
-  $('.nav-item a[href*="#"]:not([href="#"])').on('click', function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 54)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
-
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.nav-item a[href*="#"]:not([href="#"])').on('click', function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '.navbar',
-    offset: 80
-  });
-        
-};
 
 /*------------------------------------------
   HT Text Color, Background Color And Image
@@ -428,7 +398,6 @@ $(document).ready(function() {
     scrolltop(),
     headerheight(),
     fxheader(),
-    scrolling(),
     databgcolor(),  
     accordian(),
     contactform(),

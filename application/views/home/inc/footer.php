@@ -2,41 +2,37 @@
     <div class="primary-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-md-12">
                     <div class="footer-logo">
-                        <img id="footer-logo-img" src="images/logo-customizer/logo-color-2.png" class="img-center" alt="">
+                        <img id="footer-logo-img" src="<?=base_url("assets/images/arcsystems.png")?>" class="img-center" alt="">
                     </div>
-                    <p class="mb-0">
+                </div>
+                <div class="col-sm-4">
+                    <p class="mb-0 text-justify">
                         ARCSystems is an automated revenue collection system designed to handle and process collection of Taxes, Levies, Rates and other internally generated revenue from Federal, State and Local Government, from the taxpayers.
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-6 pl-md-5 sm-mt-5 footer-list justify-content-between d-flex">
+                <div class="col-sm-4 pl-md-5 sm-mt-5 footer-list justify-content-between d-flex">
                     <ul class="list-unstyled w-100">
-                        <li><a href="about-us.html">About Us</a>
+                        <li><a href="about-us.html">About ARC</a>
                         </li>
-                        <li><a href="services.html">Service</a>
+                        <li><a href="<?=base_url("benefits")?>">Benefits</a>
                         </li>
-                        <li><a href="team.html">Team</a>
+                        <li><a href="<?=base_url("implementation")?>">Implementation</a>
                         </li>
-                        <li><a href="team-single.html">Team Single</a>
-                        </li>
-                        <li><a href="contact.html">Contact Us</a>
+                        <li><a href="<?=base_url("contact")?>">Contact Us</a>
                         </li>
                     </ul>
                     <ul class="list-unstyled w-100">
-                        <li><a href="blog-right-sidebar.html">Blog</a>
+                        <li><a href="<?=base_url("blog")?>">Blog</a>
                         </li>
-                        <li><a href="faq.html">Faq</a>
+                        <li><a href="<?=base_url("operation")?>">Operation</a>
                         </li>
-                        <li><a href="error-404.html">Error 404</a>
-                        </li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a>
-                        </li>
-                        <li><a href="terms-and-conditions.html">Terms</a>
+                        <li><a href="<?=base_url("gallery")?>">Gallery</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-12 md-mt-5">
+                <div class="col-sm-4 md-mt-5">
                     <ul class="media-icon list-unstyled">
                         <li>Email: <a href="mailto:info@arcsystems.ng"><b>info@arcsystems.ng</b></a>
                         </li>
@@ -88,6 +84,7 @@
 <script src="<?= base_url("assets/js/canvas.js") ?>"></script>
 <script src="<?= base_url("assets/js/confetti.js") ?>"></script>
 <script src="<?= base_url("assets/js/snap.svg.js") ?>"></script>
+<script src="<?= base_url("assets/js/step.js") ?>"></script>
 <script src="<?= base_url("assets/js/contact-form/contact-form.js") ?>"></script>
 <script src="<?= base_url("assets/js/wow.min.js") ?>"></script>
 <script src="<?= base_url("assets/js/theme-script.js") ?>"></script>

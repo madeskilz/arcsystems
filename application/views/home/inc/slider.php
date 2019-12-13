@@ -1,4 +1,4 @@
-        <section id="home" class="fullscreen-banner banner p-0" data-bg-img="<?= base_url("assets/images/pattern/01.png") ?>">
+        <section class="fullscreen-banner banner p-0" data-bg-img="<?= base_url("assets/images/pattern/01.png") ?>">
             <div class="hero-bg">
                 <img class="img-fluid" src="<?= base_url("assets/images/bg/06 .png") ?>" alt="">
             </div>
